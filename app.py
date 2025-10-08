@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        'message': 'Hello from Azure Web App!',
+        'message': 'Hello from Azure Web App! This is version2!',
         'status': 'running',
         'timestamp': datetime.utcnow().isoformat(),
         'version': '1.0.0'
